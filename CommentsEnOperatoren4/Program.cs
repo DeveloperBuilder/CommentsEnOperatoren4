@@ -38,7 +38,6 @@ namespace CommentsEnOperatoren4
 
                 Console.WriteLine(" " + "\n" + oudste);
                 Console.WriteLine(totaal);
-                Console.ReadKey();
                 // Zorgt ervoor dat de console niet sluit. 
                 // Wacht feitelijk op een invoer van de gebruiker
             }
