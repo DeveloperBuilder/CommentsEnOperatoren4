@@ -14,11 +14,11 @@ namespace CommentsEnOperatoren4
             /// Laat middels de tenary operator het systeem bepalen welke van de twee het oudste is.
             /// Print daarnaast de totale leeftijd.
             
-            int Piet = 55;
-            int Henk = 22;
+            int PietAge = 55;
+            int HenkAge = 22;
 
-            int TotaleLeeftijd = Piet + Henk;
-            Console.WriteLine(Piet > Henk ? "Piet is de oudste van hun twee" : "Henk is de oudste van hun twee");
+            int TotaleLeeftijd = PietAge + HenkAge;
+            Console.WriteLine(PietAge > HenkAge ? "Piet is de oudste van hun twee" : "Henk is de oudste van hun twee");
             Console.WriteLine("De totale leeftijd van Piet en Henk is {0} ", TotaleLeeftijd);
             ConsoleApplication4.Program2.pietHenk();
             Console.ReadLine();
