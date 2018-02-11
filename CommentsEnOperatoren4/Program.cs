@@ -18,8 +18,8 @@ namespace CommentsEnOperatoren4
             int HenkAge = 22;
 
             int TotaleLeeftijd = PietAge + HenkAge;
-            Console.WriteLine(PietAge > HenkAge ? "Piet is de oudste van hun twee" : "Henk is de oudste van hun twee");
-            Console.WriteLine("De totale leeftijd van Piet en Henk is {0} ", TotaleLeeftijd);
+            Console.WriteLine(PietAge > HenkAge ? "Piet is the oldest" : "Henk is the oldest");
+            Console.WriteLine("The total age of Piet and Henk are {0} ", TotaleLeeftijd);
             ConsoleApplication4.Program2.pietHenk();
             Console.ReadLine();
         }
